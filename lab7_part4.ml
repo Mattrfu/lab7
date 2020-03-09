@@ -93,7 +93,7 @@ module Stack : STACK =
        element to be removed. *)
     let pop (s : 'a stack) : 'a stack =
       snd (pop_helper s)
-  end ;
+  end ;;
 (*......................................................................
 Exercise 4B: Write a function `sample_stack` that takes a unit
 argument and uses your Stack module to return a new stack with the
